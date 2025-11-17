@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Swapnil Kadam</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero small">
+    <div class="container">
+      <h1>About Me</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Background</h2>
+    <p>Short bio — education, skills, interests.</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Java, JavaScript</li>
+      <li>Machine Learning, GNNs</li>
+      <li>Jenkins, Docker, CI/CD</li>
+    </ul>
+  </main>
+
+  <footer class="container">
+    © <span id="year2"></span> Swapnil Kadam
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
