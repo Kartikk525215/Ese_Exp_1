@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY.git'
+                    url: 'https://github.com/Kartikk525215/Ese_Exp_1.git'
             }
         }
 
